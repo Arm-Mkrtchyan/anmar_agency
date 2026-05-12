@@ -1,0 +1,84 @@
+{
+  "Metadata": {
+    "homeTitle": "ANMAR Agency — Premium Advertising Ecosystem",
+    "homeDescription": "ANMAR Agency is a media and performance ecosystem connecting brands with audiences through cinema, web3, sports, and in-app advertising.",
+    "contactTitle": "Contact — ANMAR Agency",
+    "contactDescription": "Get in touch with ANMAR Agency for premium advertising partnership opportunities."
+  },
+  "Header": {
+    "logo": "ANMAR",
+    "cta": "RISE TO LEAD"
+  },
+  "Footer": {
+    "copyright": "© 2026 ANMAR Agency",
+    "contact": "Contact Us"
+  },
+  "LanguageSwitcher": {
+    "am": "AM",
+    "ru": "RU",
+    "en": "EN"
+  },
+  "Hero": {
+    "title": "Premium advertising ecosystem",
+    "text": "Cinema • Web3/Fintech • Sports • Built-in applications • Web (adult/non-adult) — a unified system for attracting traffic and creativity, optimized for your KPIs."
+  },
+  "About": {
+    "title": "About us",
+    "text": "ANMAR Agency is a media and performance ecosystem. We connect brands with relevant audiences through sophisticated formats, intelligent targeting, and creative production."
+  },
+  "Services": {
+    "card1": {
+      "title": "CINEMA TRAFFIC",
+      "subtitle": "Movie & Series Inventory",
+      "items": ["Banners", "Pre-Roll", "Outstream", "Fullscreen", "Catfish", "Page branding & backgrounds"],
+      "footerLeft": "Page 2–5",
+      "footerRight": "Formats & examples inside"
+    },
+    "card2": {
+      "title": "WEB3 & FINTECH",
+      "subtitle": "Crypto & Financial Inventory",
+      "items": ["Native Ads", "Sponsored Content", "Programmatic Display", "Interstitials", "Wallet Integrations", "Newsletter Placements"],
+      "footerLeft": "Page 6–9",
+      "footerRight": "Case studies & rates inside"
+    },
+    "card3": {
+      "title": "SPORT TRAFFIC",
+      "subtitle": "Sports & Betting Inventory",
+      "items": ["Match-Day Banners", "Live Stream Overlays", "Pre-Game Ads", "In-Content Native", "Score Widgets", "Branded Sections"],
+      "footerLeft": "Page 10–13",
+      "footerRight": "Audience data inside"
+    },
+    "card4": {
+      "title": "IN-APP & SMART TV",
+      "subtitle": "Mobile & CTV Inventory",
+      "items": ["Rewarded Video", "Playable Ads", "App-Open Ads", "CTV Pre-Roll", "Interactive Overlays", "Companion Banners"],
+      "footerLeft": "Page 14–17",
+      "footerRight": "Specs & targeting inside"
+    }
+  },
+  "Contact": {
+    "title": "Request for cooperation",
+    "text": "Select the areas of interest and provide your contact information. The ANMAR team will offer partnership terms and a media mix tailored to your KPIs.",
+    "checkboxes": {
+      "cinema": "Cinema Traffic",
+      "web3": "Web3 & Fintech",
+      "sport": "Sport Traffic",
+      "inapp": "In-App Traffic",
+      "web": "Web Traffic (Adult/Non-Adult)",
+      "smarttv": "Smart TV Ads"
+    },
+    "email": "Email",
+    "phone": "Phone Number",
+    "message": "Additional message",
+    "messagePlaceholder": "Tell us about your project, goals, and desired KPIs...",
+    "submit": "Send",
+    "success": "Your request has been sent successfully!",
+    "errors": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "phoneRequired": "Phone number is required",
+      "phoneInvalid": "Please enter a valid phone number",
+      "interestsRequired": "Please select at least one area of interest"
+    }
+  }
+}
