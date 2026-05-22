@@ -1,13 +1,13 @@
 {
   "Metadata": {
     "homeTitle": "ANMAR Agency — Պրեմիում գովազդային էկոսիստեմ",
-    "homeDescription": "ANMAR Agency-ն մեդիա և կատարողականության էկոսիստեմ է։",
+    "homeDescription": "ANMAR Agency-ն միասնական տրաֆիկի և կրեատիվի էկոսիստեմ է։",
     "contactTitle": "Կապ — ANMAR Agency",
-    "contactDescription": "Կապվեք ANMAR Agency-ի հետ գովազդային համագործակցության հնարավորությունների համար։"
+    "contactDescription": "Կապվեք ANMAR Agency-ի հետ  համագործակցության  համար։"
   },
   "Header": {
     "logo": "ANMAR",
-    "cta": "ԲԱՐՁՐԱՑԻՌ"
+    "cta": "Կապնվել"
   },
   "Footer": {
     "copyright": "© 2026 ANMAR Agency",
@@ -19,81 +19,78 @@
     "en": "ENG"
   },
   "Hero": {
-    "title": "Պրեմիում գովազդային էկոսիստեմ",
-    "text": "Կինո • Web3/Fintech • Սպորտ • Ներկառուցված հավելվածներ • Վեբ (adult/non-adult) — թրաֆիկի և ստեղծագործության ներգրավման միասնական համակարգ, օպտիմալացված ձեր KPI-ների համար։"
+    "title": "Հառնիր Առաջնորդելու",
+    "text": "Բազմաալիք մեդիա և լսարանի թիրախավորման էկոհամակարգ՝ այն բրենդների համար, որոնք ցանկանում են մասշտաբավորում և վերահսկվող, չափելի արդյունք։։"
   },
   "About": {
     "title": "Մեր մասին",
-    "text": "ANMAR Agency-ն մեդիա և կատարողականության էկոսիստեմ է։ Մենք կապում ենք բրենդները համապատասխան լսարանների հետթարգավորված ֆորմատների, ինտելեկտուալ թարգետինգի և ստեղծագործական արտադրության միջոցով։"
+    "text": "Մենք միավորում ենք Cinema,SmartTV, Web3/Fintech, Sport, In-App և Web (Adult/Non-Adult) Աղբյուրները՝ առաջարկելով ճկուն ֆորմատներ, առաջադեմ թիրախավորում և պրոդաքշն լուծումներ՝ KPI-ին համապատասխան։"
   },
   "Services": {
     "card1": {
-      "title": "ԿԻՆՕ ՏՐԱՖԻԿ",
-      "subtitle": "Ֆիլմերի և սերիալների գույքագրություն",
+      "title": "Ֆիլմ",
+      "subtitle": "Ֆիլմերի և սերիալների կայքեր",
       "items": [
-        "Բաններներ",
+        "Banner",
         "Pre-Roll",
         "Outstream",
         "Fullscreen",
         "Catfish",
-        "Էջի բրենդինգ և ֆոներ"
+        "Background"
       ],
-      "footerLeft": "Էջ 2–5",
-      "footerRight": "Ֆորմատներ և օրինակներ ներսը"
+      "footerLeft": "Main Targeting",
+      "footerRight": "White List/Balck List"
     },
     "card2": {
-      "title": "WEB3 & FINTECH",
-      "subtitle": "Կրիպտո և ֆինանսական գույքագրություն",
+      "title": "Վեբ3/Ֆինտեխ և ՍմարթTV",
+      "subtitle": "Վեբ3/Ֆինտեխ կայքեր և SmartTV-ներ",
       "items": [
-        "Բնիկ գովազդներ",
-        "Հովանավորված բովանդակություն",
-        "Պրոգրամատիկ ցուցադրում",
-        "Ինտերստիցիալներ",
-        "Դրամապանակային ինտեգրացիաներ",
-        "Տեղեկագրային տեղադրումներ"
+        "Banners",
+        "Banner Packages",
+        "PR articles",
+        "PR Pakages",
+        "SmartTV-Banner",
+        "SmartTV-Video"
       ],
-      "footerLeft": "Էջ 6–9",
-      "footerRight": "Գործի ուսումնասիրություններ և սակագներ ներսը"
+      "footerLeft": "Main Targeting",
+      "footerRight": "Device, OS, TV channel theme"
     },
     "card3": {
-      "title": "ՍՊՕՐՏ ՏՐԱՖԻԿ",
-      "subtitle": "Սպորտային և խաղադրույքների գույքագրություն",
+      "title": "Սպորտ",
+      "subtitle": "Սպորտային կայքեր",
       "items": [
-        "Խաղային օրվա բաններներ",
-        "Ուղիղ հեռարծակման ծածկույթներ",
-        "Նախախաղային գովազդներ",
-        "Բովանդակության ներսը",
-        "Միավորների վիջետներ",
-        "Բրենդային բաժիններ"
+        "Banner",
+        "Fullscreen",
+        "Video",
+        "In-Banner Video"
       ],
-      "footerLeft": "Էջ 10–13",
-      "footerRight": "Լսարանի տվյալներ ներսը"
+      "footerLeft": "Main Targeting",
+      "footerRight": "Age, Gender, OS, Carrier"
     },
     "card4": {
-      "title": "ՆԵՐԿԱՌՈՒՉԱԾ & SMART TV",
-      "subtitle": "Բջջային և CTV գույքագրություն",
+      "title": "Վեբ և Հավելվածներ",
+      "subtitle": "Վեբ կայքեր և հավելվածներ",
       "items": [
-        "Պարգևատրալ տեսանյութ",
-        "Ինտերակտիվ գովազդներ",
-        "Հավելվածի բացման գովազդներ",
-        "CTV Pre-Roll",
-        "Ինտերակտիվ ծածկույթներ",
-        "Ուղեկցիչ բաններներ"
+          "Banner",
+        "Fullscreen",
+        "Video",
+        "In-Banner Video"
+        "Push"
       ],
-      "footerLeft": "Էջ 14–17",
-      "footerRight": "Սպեցիֆիկացիաներ և թիրախավորում ներսը"
+     "footerLeft": "Main Targeting",
+      "footerRight": "Age, Gender, OS, Carrier"
     }
   },
   "Contact": {
     "title": "Համագործակցության հայտ",
     "text": "Ընտրեք հետաքրքիր ոլորտները և ներկայացրեք ձեր կոնտակտային տվյալները։ ANMAR թիմը կառաջարկի համագործակցության պայմաններ և մեդիա միքս։",
     "checkboxes": {
-      "cinema": "Կինո տրաֆիկ",
-      "web3": "Web3 & Fintech",
-      "sport": "Սպորտ տրաֆիկ",
-      "inapp": "In-App տրաֆիկ",
-      "web": "Վեբ տրաֆիկ (Adult/Non-Adult)",
-      "smarttv": "Smart TV գովազդներ"
+      "cinema": "Ֆիլմ կայքեր",
+      "web3": "Վեբ3/Ֆինտեխ կայքեր",
+      "sport": "Սպորտ կայքեր",
+      "inapp": "Հավելվածներ",
+      "web": "Վեբ կայքեր (Adult/Non-Adult)",
+      "smarttv": "ՍմարթTV"
     },
     "email": "Էլ. փոստ",
     "phone": "Հեռախոսահամար",
