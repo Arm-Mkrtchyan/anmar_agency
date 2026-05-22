@@ -32,7 +32,7 @@ export default function ContactPage({ params }: PageProps) {
       <div className="max-w-3xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12 sm:mb-16">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold gradient-text mb-4 animate-fade-in-up">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl leading-tight font-bold gradient-text mb-4 animate-fade-in-up">
             {t("title")}
           </h1>
           <p className="text-muted text-base sm:text-lg max-w-2xl mx-auto leading-relaxed animate-fade-in-up" style={{ animationDelay: "150ms" }}>
