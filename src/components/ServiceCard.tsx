@@ -22,10 +22,10 @@ export function ServiceCard({
     >
       {/* Header */}
       <div className="mb-6">
-        <h3 className="text-lg font-bold tracking-wider text-foreground mb-1">
+        <h3 className="text-sm font-bold tracking-wider text-foreground mb-1">
           {title}
         </h3>
-        <p className="text-sm text-muted">{subtitle}</p>
+        <p className="text-xs text-muted">{subtitle}</p>
       </div>
 
       {/* Divider */}
@@ -42,12 +42,12 @@ export function ServiceCard({
       </ul>
 
       {/* Footer */}
-      <div className="border-t border-border pt-4 flex items-center justify-between gap-4">
+     {/* <div className="border-t border-border pt-4 flex items-center justify-between gap-4">
         <span className="text-xs font-semibold text-accent tracking-wide">
           {footerLeft}
         </span>
         <span className="text-xs text-muted text-right">{footerRight}</span>
-      </div>
+      </div>*/}
     </div>
   );
 }

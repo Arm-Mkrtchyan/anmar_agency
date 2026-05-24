@@ -252,3 +252,20 @@ body {
   pointer-events: none;
   z-index: 0;
 }
+
+/* --- Mission section --- */
+.mission-section {
+  background:
+    radial-gradient(ellipse 50% 40% at 20% 80%, rgba(124, 92, 252, 0.06), transparent),
+    radial-gradient(ellipse 40% 30% at 80% 20%, rgba(168, 85, 247, 0.04), transparent);
+}
+
+.mission-item svg {
+  filter: drop-shadow(0 0 8px rgba(124, 92, 252, 0.15));
+  transition: filter 0.4s ease, transform 0.4s ease;
+}
+
+.mission-item:hover svg {
+  filter: drop-shadow(0 0 16px rgba(124, 92, 252, 0.35));
+}
+

@@ -26,6 +26,18 @@
     "title": "About us",
     "text": "ANMAR Agency is a media and performance ecosystem. We connect brands with relevant audiences through sophisticated formats, intelligent targeting, and creative production."
   },
+  "Mission": {
+    "title": "Mission",
+    "text": "Our mission is to enable brands to rise to leadership with scale and control. \"Immortal\" is like the flame of the phoenix, an energy of sustainable growth with measurable impact.",
+    "items": {
+      "marketingAndStrategy": "Marketing and strategy",
+      "production": "Production",
+      "smm": "SMM",
+      "analytics": "Analytics",
+      "ownBuying": "Own buying",
+      "clients": "Clients"
+    }
+  },
   "Services": {
     "card1": {
       "title": "CINEMA TRAFFIC",

@@ -2,6 +2,7 @@ import { use } from "react";
 import { useTranslations } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { ServiceCard } from "@/components/ServiceCard";
+import { MissionSection } from "@/components/MissionSection";
 
 type PageProps = {
   params: Promise<{ locale: string }>;
@@ -49,6 +50,9 @@ export default function HomePage({ params }: PageProps) {
           </p>
         </div>
       </section>
+
+      {/* ——— MISSION ——— */}
+      <MissionSection />
 
       {/* ——— SERVICES ——— */}
       <section className="py-20 sm:py-28 px-4 relative">
