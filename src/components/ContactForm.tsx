@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { useState } from "react";
+import { ContactRequestPayload, ContactResponsePayload } from "@/types/contact";
 
 const checkboxKeys = [
   "cinema",
@@ -45,6 +46,7 @@ type ContactFormData = z.infer<ReturnType<typeof createContactSchema>>;
 export function ContactForm() {
   const t = useTranslations("Contact");
   const [submitted, setSubmitted] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
 
   const schema = createContactSchema({
     emailRequired: t("errors.emailRequired"),
@@ -81,10 +83,39 @@ export function ContactForm() {
     setValue("interests", updated, { shouldValidate: true });
   }
 
-  function onSubmit(data: ContactFormData) {
-    console.log("Form submitted:", data);
-    setSubmitted(true);
-    reset();
+  async function onSubmit(data: ContactFormData) {
+    setSubmitError(null);
+    
+    try {
+      const payload: ContactRequestPayload = {
+        interests: data.interests,
+        email: data.email,
+        phone: data.phone,
+        message: data.message,
+      };
+
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+
+      const responseData: ContactResponsePayload = await response.json();
+
+      if (!response.ok) {
+        throw new Error(responseData.error || "Failed to deliver message.");
+      }
+
+      console.info("[ContactForm] Successfully submitted form data.");
+      setSubmitted(true);
+      reset();
+    } catch (error: unknown) {
+      const errorMessage = error instanceof Error ? error.message : "An unexpected error occurred.";
+      console.error(`[ContactForm] Form Submission Error: ${errorMessage}`);
+      setSubmitError(errorMessage);
+    }
   }
 
   if (submitted) {
@@ -188,6 +219,12 @@ export function ContactForm() {
           placeholder={t("messagePlaceholder")}
         />
       </div>
+
+      {submitError && (
+        <div className="p-4 rounded-md bg-error/10 border border-error/20 animate-fade-in">
+          <p className="text-sm text-error font-medium">{submitError}</p>
+        </div>
+      )}
 
       {/* Submit */}
       <button
