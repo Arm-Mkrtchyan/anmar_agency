@@ -7,10 +7,10 @@
   },
   "Header": {
     "logo": "ANMAR",
-    "cta": "RISE TO LEAD"
+    "cta": "Get a Proposal"
   },
   "Footer": {
-    "copyright": "© 2026 ANMAR Agency",
+    "copyright": "© 2025 ANMAR Agency",
     "contact": "Contact Us"
   },
   "LanguageSwitcher": {
@@ -19,23 +19,23 @@
     "en": "EN"
   },
   "Hero": {
-    "title": "Premium advertising ecosystem",
-    "text": "Cinema • Web3/Fintech • Sports • Built-in applications • Web (adult/non-adult) — a unified system for attracting traffic and creativity, optimized for your KPIs."
-  },
-  "About": {
-    "title": "About us",
+    "title": "RISE TO LEAD",
     "text": "ANMAR Agency is a media and performance ecosystem. We connect brands with relevant audiences through sophisticated formats, intelligent targeting, and creative production."
   },
-  "Mission": {
+  "About": {
     "title": "Mission",
-    "text": "Our mission is to enable brands to rise to leadership with scale and control. \"Immortal\" is like the flame of the phoenix, an energy of sustainable growth with measurable impact.",
+    "text": "Our mission is to enable brands to rise to leadership with scale and control. \"ANMAR\" is like the flame of the phoenix, an energy of sustainable growth with measurable impact."
+  },
+  "Mission": {
+    "title": "About us",
+    "text": "Cinema • Web3/Fintech • Sports • Built-in applications • Web (adult/non-adult) — a unified system for attracting traffic and creativity, optimized for your KPIs.",
     "items": {
-      "marketingAndStrategy": "Marketing and strategy",
+      "marketingAndStrategy": "360° Marketing",
       "production": "Production",
       "smm": "SMM",
       "analytics": "Analytics",
-      "ownBuying": "Own buying",
-      "clients": "Clients"
+      "ownBuying": "Planing & Buying",
+      "clients": "Rise To Lead"
     }
   },
   "Services": {
@@ -47,30 +47,30 @@
       "footerRight": "Formats & examples inside"
     },
     "card2": {
-      "title": "WEB3 & FINTECH",
-      "subtitle": "Crypto & Financial Inventory",
-      "items": ["Native Ads", "Sponsored Content", "Programmatic Display", "Interstitials", "Wallet Integrations", "Newsletter Placements"],
+      "title": "WEB3/FINTECH & SmartTV",
+      "subtitle": "Crypto/Financial Inventory & SmartTV",
+      "items": ["Banners", "Banner Packages", "PR articles", "PR Pakages", "SmartTV-Banner", "SmartTV-Video"],
       "footerLeft": "Page 6–9",
       "footerRight": "Case studies & rates inside"
     },
     "card3": {
       "title": "SPORT TRAFFIC",
-      "subtitle": "Sports & Betting Inventory",
-      "items": ["Match-Day Banners", "Live Stream Overlays", "Pre-Game Ads", "In-Content Native", "Score Widgets", "Branded Sections"],
+      "subtitle": "Sports Inventory",
+      "items": ["Banner", "Fullscreen", "Video", "In-Banner Video"],
       "footerLeft": "Page 10–13",
       "footerRight": "Audience data inside"
     },
     "card4": {
-      "title": "IN-APP & SMART TV",
-      "subtitle": "Mobile & CTV Inventory",
-      "items": ["Rewarded Video", "Playable Ads", "App-Open Ads", "CTV Pre-Roll", "Interactive Overlays", "Companion Banners"],
+      "title": "IN-APP & Web",
+      "subtitle": "Mobile & Web Inventory",
+      "items": ["Banner", "Fullscreen", "Video", "In-Banner Video", "Push"],
       "footerLeft": "Page 14–17",
       "footerRight": "Specs & targeting inside"
     }
   },
   "Contact": {
     "title": "Request for cooperation",
-    "text": "Select the areas of interest and provide your contact information. The ANMAR team will offer partnership terms and a media mix tailored to your KPIs.",
+    "text": "Select the source of interest and provide your contact information. The ANMAR team will offer partnership terms and a media mix tailored to your KPIs.",
     "checkboxes": {
       "cinema": "Cinema Traffic",
       "web3": "Web3 & Fintech",
@@ -90,7 +90,7 @@
       "emailInvalid": "Please enter a valid email address",
       "phoneRequired": "Phone number is required",
       "phoneInvalid": "Please enter a valid phone number",
-      "interestsRequired": "Please select at least one area of interest"
+      "interestsRequired": "Please select at least one source of interest"
     }
   }
 }
